@@ -24,10 +24,14 @@ class ContactTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        NotificationCenter.default.addObserver(self, selector: #selector(updateView), name: Notification.Name.contactUpdate, object: nil)
     }
     
-    
+    @objc func updateView() {
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+    }
     
     
 

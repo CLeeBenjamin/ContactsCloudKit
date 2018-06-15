@@ -55,7 +55,9 @@ class ContactController {
     }
     
     func deleteContact(){
+       
         
+               
     }
     
     //MARK: - Storage Methods
