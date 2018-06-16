@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ContactTableViewController: UITableViewController {
+class ContactTableViewController: UITableViewController{
     
     // MARK: - Constants
 
@@ -78,7 +78,6 @@ class ContactTableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == Constants.segueID {
-            
             
             if let destinationVC = segue.destination as? ContactViewController,
                 let selectedRow = tableView.indexPathForSelectedRow?.row {

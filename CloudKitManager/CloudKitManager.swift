@@ -17,6 +17,7 @@ class CloudKitManager {
     
     //MARK: - Make General Function
     
+    
     func modify(records: [CKRecord], eachRecordCompletion: ((_ record: CKRecord?, _ error: Error?) -> Void)?, completion: ((_ records: [CKRecord]?, _ error: Error?) -> Void)? ){
         
         let operation = CKModifyRecordsOperation(recordsToSave: records, recordIDsToDelete: nil)
@@ -40,7 +41,10 @@ class CloudKitManager {
         
     }
     
+    //MARK: - Delete Records
     
+    
+
     
     //MARK: - Fetch
     func fetchRecordsWith(type: String, completion: @escaping ((_ records: [CKRecord]?, _ error: Error?) -> Void)){

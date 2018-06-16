@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ContactViewController: UIViewController {
+class ContactViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: - Properties
     var contact: Contact? {
@@ -41,18 +41,27 @@ class ContactViewController: UIViewController {
     
     //MARK: - Actions
     @IBAction func saveButtonTapped(_ sender: Any) {
-        guard let name = nameTextField.text, name != "" else { return }
-        guard let phoneNumber = phoneNumberTextField.text, phoneNumber != "" else { return }
-        guard let email = emailTextField.text, email != "" else { return }
         
-            if let contact = contact {
+        if isEditing == true {
+                navigationItem.title = "Edit"
+            guard let contact = contact else { return }
+            guard let name = nameTextField.text, name != "" else { return }
+            guard let phoneNumber = phoneNumberTextField.text, phoneNumber != "" else { return }
+            guard let email = emailTextField.text, email != "" else { return }
                 ContactController.shared.updateContact(contact: contact, name: name, email: email, phone: phoneNumber)
-            } else {
-                ContactController.shared.createContact(name: name, email: email, phoneNumber: phoneNumber)
+               self.navigationController?.popViewController(animated: true)
+            self.isEditing = false
+            
+        } else {
+        navigationItem.title = "Create"
+            
+        guard let name = nameTextField.text, name != "" else { return }
+         guard let phoneNumber = phoneNumberTextField.text else { return }
+        guard let email = emailTextField.text, email != "" else { return }
+        ContactController.shared.createContact(name: name, email: email, phoneNumber: phoneNumber)
+        self.navigationController?.popViewController(animated: true)
+     
             }
-        
-        
-      self.navigationController?.popViewController(animated: true)
         
         
     }
