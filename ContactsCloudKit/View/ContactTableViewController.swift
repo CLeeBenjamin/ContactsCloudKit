@@ -35,6 +35,9 @@ class ContactTableViewController: UITableViewController{
     
     
 
+    
+    
+
     //MARK: - Actions
     @IBAction func addButtonTapped(_ sender: Any) {
         
@@ -59,18 +62,69 @@ class ContactTableViewController: UITableViewController{
     }
 
 
-    /*
+
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            // Delete the row from the data source
+            
+            let contact = ContactController.shared.contacts[indexPath.row]
+            guard let index = ContactController.shared.contacts.index(of: contact) else { return }
+            ContactController.shared.contacts.remove(at: index)
+            
+            
+            ContactController.shared.delete(recordID: contact) { (error) in
+                if let error = error {
+                    print("Error deleting recordID \(#function) \(error)")
+            }
+            
+        }
             tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
     }
-    */
-
+            
+    }
+            
+            
+            
+            
+            //MARK: - Remove from tableView of nested arrays//////////
+            
+//            // this targets the actual row for a particular row on the tablview
+//            let contact = ContactController.shared.contacts[indexPath.row]
+//            // set value of variable indext to the index selected
+////            guard let index = ContactController.shared.contacts.index(of: contact) else { return }
+////            /// remove the index from the array
+////            ContactController.shared.contacts.remove(at: index)
+//
+//            //MARK: - Remove from Record from Cloudkit//////
+//
+////            /// instance of CKReordID
+////            guard let recordID = contact.recordID else { return }
+//
+//            /// cloudkit delete method, defined in contactcontroller
+////            ContactController.shared.deleteContact(contact: contact)
+////
+//            ContactController.shared.delete(recordID: contact) { (error) in
+//                if let error = error {
+//                    print("Error deleting recordID \(#function) \(error)")
+//            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+            
+            
+            
+            
+            
+            
+////
+//            }
+//
+//
+//     }
+////        else if editingStyle == .insert {
+////            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+////        }
+//    }
+//
+//    }
 
 
     // MARK: - Navigation
@@ -88,6 +142,6 @@ class ContactTableViewController: UITableViewController{
             }
         }
     }
-    }
+}
   
 

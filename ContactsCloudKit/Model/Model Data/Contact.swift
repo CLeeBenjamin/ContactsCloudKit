@@ -9,7 +9,7 @@
 import Foundation
 import CloudKit
 
-class Contact {
+class Contact: Equatable {
     //MARK: - Create Keys
     static let TypeKey = "Contacts"
     fileprivate let NameKey = "Name"
@@ -62,8 +62,18 @@ class Contact {
 //        self.appleUserRef = appleUserRef
         self.recordID = cloudKitRecord.recordID
     }
+}
+
+    func ==(lhs: Contact, rhs: Contact) -> Bool {
+        if lhs.name != rhs.name { return false }
+        if lhs.email != rhs.email { return false }
+        if lhs.phoneNumber != rhs.phoneNumber { return false }
+        
+        return true
+    
     
 }
+
 
 //MARK: - Add properties to CKReference
 
@@ -81,6 +91,7 @@ extension CKRecord {
         
     }
 }
+
 
 
 

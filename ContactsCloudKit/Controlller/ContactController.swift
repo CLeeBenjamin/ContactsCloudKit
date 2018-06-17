@@ -11,17 +11,21 @@ import CloudKit
 
 class ContactController {
     
+    //MARK: - Shared Instance
+    static let shared = ContactController()
     
     //MARK: - Source of Truth: Property
     var contacts = [Contact]() {
         didSet {
+            DispatchQueue.main.async {
+                DispatchQueue.main.async {
             NotificationCenter.default.post(name: .contactUpdate, object: self)
-            
+                }
+            }
         }
     }
     
-    //MARK: - Shared Instance
-    static let shared = ContactController()
+  
     //MARK: - CloudKitManager
     let cloudKitManager = CloudKitManager()
     
@@ -39,11 +43,6 @@ class ContactController {
         
     }
     
-    func retrieveContact(){
-        
-        
-    }
-    
     
     func updateContact(contact: Contact, name: String, email: String, phone: String){
         contact.name = name
@@ -54,11 +53,52 @@ class ContactController {
         
     }
     
-    func deleteContact(){
-       
-        
-               
+    func deleteContact(contact: Contact){
+        cloudKitManager.delete(contact: contact.ckRecord) { (success) in
+            if success {
+                print("Successfully deleted contact.")
+            }else{
+                print("Error deleting contact.")
+            }
+        }
     }
+    
+    func delete(recordID: Contact, completion: @escaping (Bool?) -> Void) {
+        
+        let recordToBeDeleted = CKRecord(contact: recordID)
+        
+        cloudKitManager.delete(withRecordID: recordToBeDeleted.recordID) { (_ , error) in
+            DispatchQueue.main.async { () -> Void in
+            if let error = error {
+                print("Error deleting recordID \(#function) \(error) \(error.localizedDescription)")
+                return
+            }
+    
+            completion(false)
+            return
+            }
+        }
+    
+    }
+    
+    
+    
+    
+    
+        
+//        cloudKitManager.delete(withRecordID: recordID) { (ckRecordId, error) in
+//
+//            if let error = error {
+//                print("Error deleting \(error.localizedDescription)")
+//                completion(nil)
+//                return
+//            }
+//
+//            completion(error)
+//        }
+ 
+    
+    
     
     //MARK: - Storage Methods
     

@@ -42,7 +42,23 @@ class CloudKitManager {
     }
     
     //MARK: - Delete Records
+    func delete(contact: CKRecord, completion: @escaping ((Bool) -> Void)) {
+        CKContainer.default().publicCloudDatabase.delete(withRecordID: contact.recordID) { (_, error) in
+            if let error = error {
+                print("Error deleting contact. Error:\(error) - \(error.localizedDescription)")
+            } else {
+                print("Successfully deleted contact")
+            }
+        }
+    }
     
+    func delete(withRecordID recordID: CKRecordID, completionHandler: @escaping (CKRecordID?, Error?) -> Void) {
+        
+        publicDB.delete(withRecordID: recordID) { (ckRecordID, error) in
+            
+            completionHandler(ckRecordID, error)
+        }
+    }
     
 
     
