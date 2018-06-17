@@ -35,30 +35,25 @@ class ContactTableViewController: UITableViewController{
     
     
 
-    
-    
 
-    //MARK: - Actions
-    @IBAction func addButtonTapped(_ sender: Any) {
-        
-    }
     
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       
+        
         return ContactController.shared.contacts.count
     }
-
- 
+    
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: Constants.contactCellID, for: indexPath)
         let contacts = ContactController.shared.contacts[indexPath.row]
         
         cell.textLabel?.text = contacts.name
         
+        print(cell)
         return cell
-    
+        
     }
 
 
@@ -66,23 +61,15 @@ class ContactTableViewController: UITableViewController{
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            
             let contact = ContactController.shared.contacts[indexPath.row]
+            ContactController.shared.delete(contact: contact)
             guard let index = ContactController.shared.contacts.index(of: contact) else { return }
-            ContactController.shared.contacts.remove(at: index)
-            
-            
-            ContactController.shared.delete(recordID: contact) { (error) in
-                if let error = error {
-                    print("Error deleting recordID \(#function) \(error)")
-            }
-            
-        }
+            ContactController.shared.contacts.remove(at:index)
             tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+        
     }
-            
-    }
-            
+    
             
             
             

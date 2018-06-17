@@ -48,7 +48,6 @@
                     <navigationItem key="navigationItem" title="Contacts" id="lyS-QB-AJh">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="jT4-wh-odi">
                             <connections>
-                                <action selector="addButtonTapped:" destination="2v4-Bc-CUc" id="ciM-Vz-l4p"/>
                                 <segue destination="etK-zX-tCy" kind="show" id="dTA-Fk-eTi"/>
                             </connections>
                         </barButtonItem>

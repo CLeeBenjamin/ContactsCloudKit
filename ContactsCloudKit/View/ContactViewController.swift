@@ -11,14 +11,15 @@ import UIKit
 class ContactViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: - Properties
-    var contact: Contact? {
-        didSet {
-         if isViewLoaded {
-          updateViews()
-                }
-        }
+    var contact: Contact?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        updateViews()
+        
     }
-
+    
+    
     //MARK: - IBOutlets
     
     @IBOutlet weak var nameTextField: UITextField!
@@ -29,6 +30,8 @@ class ContactViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: - Update Info
     func updateViews() {
+        title = contact == nil ? "Add Contact" : "Edit Contact"
+        
         guard let contact = contact else { return }
         nameTextField.text =  contact.name
         emailTextField.text = contact.email
@@ -39,38 +42,30 @@ class ContactViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: - Actions
     @IBAction func saveButtonTapped(_ sender: Any) {
+        guard let name = nameTextField.text, !name.isEmpty, let email = emailTextField.text, let phone = phoneNumberTextField.text else { return }
         
-        if isEditing == true {
-                navigationItem.title = "Edit"
-            guard let contact = contact else { return }
-            guard let name = nameTextField.text, name != "" else { return }
-            guard let phoneNumber = phoneNumberTextField.text, phoneNumber != "" else { return }
-            guard let email = emailTextField.text, email != "" else { return }
-            
-                ContactController.shared.updateContact(contact: contact, name: name, email: email, phone: phoneNumber)
-               self.navigationController?.popViewController(animated: true)
-            self.isEditing = false
-            
-        } else {
-        navigationItem.title = "Create"
-            
-         guard let name = nameTextField.text, name != "" else { return }
-         guard let phoneNumber = phoneNumberTextField.text else { return }
-         guard let email = emailTextField.text, email != "" else { return }
-        ContactController.shared.createContact(name: name, email: email, phoneNumber: phoneNumber)
-        self.navigationController?.popViewController(animated: true)
-     
+        if let contact = contact {
+            ContactController.shared.update(contact: contact, name: name, email: email, phone: phone) { (error) in
+                if let error = error {
+                    print("There was an error updating the entry: \(error)")
+                    // Do something else to notify user
+                    return
+                }
+                else {
+                    
+                    DispatchQueue.main.async {
+                        self.navigationController?.popViewController(animated: true)
+                    }
+                }
             }
-        
-        
+        }
+                    
+        ContactController.shared.createContact(name: name, email: email, phoneNumber: phone)
+            
+        DispatchQueue.main.async {
+        self.navigationController?.popViewController(animated: true)
+        }
     }
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        updateViews()
-        
-    }
-
 }
+
 

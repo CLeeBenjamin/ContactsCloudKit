@@ -24,7 +24,7 @@ class Contact: Equatable {
     var phoneNumber: String
 //MARK: - AppleUserID
 //    let appleUserRef: CKReference
-    var recordID: CKRecordID?
+    var ckRecordID: CKRecordID?
     
     
 //MARK: - Initialize Properties
@@ -37,15 +37,15 @@ class Contact: Equatable {
     }
     
 //MARK: - Create CKRecord (computed property)with TypeKey and add properties: Post
-    var ckRecord: CKRecord {
-        
-        let record = CKRecord(recordType: Contact.TypeKey)
-        record.setValue(name, forKey: NameKey)
-        record.setValue(email, forKey: EmailAddressKey)
-        record.setValue(phoneNumber, forKey: PhoneKey)
-        
-       return record
-    }
+//    var ckRecord: CKRecord {
+//        
+//        let record = CKRecord(recordType: Contact.TypeKey)
+//        record.setValue(name, forKey: NameKey)
+//        record.setValue(email, forKey: EmailAddressKey)
+//        record.setValue(phoneNumber, forKey: PhoneKey)
+//        
+//       return record
+//    }
     
 //MARK: - Create Falliable Initializers: Fetch, if there is no data
     
@@ -60,7 +60,7 @@ class Contact: Equatable {
         self.email = email
         self.phoneNumber = phoneNumber
 //        self.appleUserRef = appleUserRef
-        self.recordID = cloudKitRecord.recordID
+        self.ckRecordID = cloudKitRecord.recordID
     }
 }
 
@@ -75,12 +75,12 @@ class Contact: Equatable {
 }
 
 
-//MARK: - Add properties to CKReference
+//MARK: - Add properties
 
 extension CKRecord {
     
     convenience init(contact: Contact) {
-        let recordID = contact.recordID ?? CKRecordID(recordName: UUID().uuidString)
+        let recordID = contact.ckRecordID ?? CKRecordID(recordName: UUID().uuidString)
         
         //MARK: - Initialize RecordID
              self.init(recordType: Contact.TypeKey, recordID: recordID)
