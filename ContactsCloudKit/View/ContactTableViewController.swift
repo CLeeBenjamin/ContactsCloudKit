@@ -42,6 +42,7 @@ class ContactTableViewController: UITableViewController{
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return ContactController.shared.contacts.count
+       
     }
     
     
@@ -50,7 +51,7 @@ class ContactTableViewController: UITableViewController{
         let contacts = ContactController.shared.contacts[indexPath.row]
         
         cell.textLabel?.text = contacts.name
-        
+        print(ContactController.shared.contacts.count)
         print(cell)
         return cell
         

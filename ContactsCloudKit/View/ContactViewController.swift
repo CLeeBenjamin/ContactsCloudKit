@@ -13,6 +13,7 @@ class ContactViewController: UIViewController, UITextFieldDelegate {
     //MARK: - Properties
     var contact: Contact?
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateViews()

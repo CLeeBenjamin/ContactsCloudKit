@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.1962709"
+            timestampString = "551211656.7328891"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "saveButtonTapped(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.196691"
+            timestampString = "551211656.732947"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "ContactViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.196997"
+            timestampString = "551211656.732985"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "updateViews()"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,23 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.197295"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "updateViews()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.197596"
+            timestampString = "551211656.733021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
@@ -90,7 +74,55 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.197862"
+            timestampString = "551211656.733053"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "updateViews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCloudKit/View/ContactViewController.swift"
+            timestampString = "551211656.7330869"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "updateViews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCloudKit/View/ContactViewController.swift"
+            timestampString = "551211656.73312"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "updateViews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCloudKit/View/ContactViewController.swift"
+            timestampString = "551211656.733152"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -105,88 +137,8 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.198135"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "updateViews()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.198396"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "updateViews()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.19866"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "createContact(name:email:phoneNumber:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.198738"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "createContact(name:email:phoneNumber:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.198805"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "createContact(name:email:phoneNumber:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.198871"
+            timestampString = "551211842.004783"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -202,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.1989371"
+            timestampString = "551211842.005174"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -218,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.199002"
+            timestampString = "551211842.00538"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "createContact(name:email:phoneNumber:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,7 +186,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.199066"
+            timestampString = "551211842.005581"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "createContact(name:email:phoneNumber:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
+            timestampString = "551211842.0057811"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -250,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.199131"
+            timestampString = "551211842.005988"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "createContact(name:email:phoneNumber:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -266,11 +234,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.199195"
+            timestampString = "551211842.006174"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "createContact(name:email:phoneNumber:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
+            timestampString = "551211842.006547"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "createContact(name:email:phoneNumber:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
+            timestampString = "551211842.0069211"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "createContact(name:email:phoneNumber:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -282,7 +282,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.199261"
+            timestampString = "551211656.735044"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
@@ -298,7 +298,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/View/ContactViewController.swift"
-                  timestampString = "550964101.406724"
+                  timestampString = "551211720.277882"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -313,7 +313,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/View/ContactViewController.swift"
-                  timestampString = "550964101.408439"
+                  timestampString = "551211720.279425"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -328,7 +328,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/View/ContactViewController.swift"
-                  timestampString = "550964101.410078"
+                  timestampString = "551211720.281539"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -343,7 +343,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/View/ContactViewController.swift"
-                  timestampString = "550964101.411525"
+                  timestampString = "551211720.283989"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -360,7 +360,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.199507"
+            timestampString = "551211656.735085"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
@@ -376,7 +376,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/View/ContactViewController.swift"
-                  timestampString = "550964101.4171211"
+                  timestampString = "551211720.290247"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -391,7 +391,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/View/ContactViewController.swift"
-                  timestampString = "550964101.418671"
+                  timestampString = "551211720.293205"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -406,7 +406,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/View/ContactViewController.swift"
-                  timestampString = "550964101.420189"
+                  timestampString = "551211720.296373"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -421,7 +421,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/View/ContactViewController.swift"
-                  timestampString = "550964101.4216371"
+                  timestampString = "551211720.299363"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -438,7 +438,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.199749"
+            timestampString = "551211842.00735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
@@ -454,7 +454,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.199813"
+            timestampString = "551211842.007612"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -470,7 +470,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.199875"
+            timestampString = "551211842.007889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -486,7 +486,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Controlller/ContactController.swift"
-                  timestampString = "550964101.431116"
+                  timestampString = "551211720.314204"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -501,7 +501,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Controlller/ContactController.swift"
-                  timestampString = "550964101.432613"
+                  timestampString = "551211720.317331"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "23"
@@ -518,7 +518,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.199935"
+            timestampString = "551211842.00822"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
@@ -534,7 +534,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.200008"
+            timestampString = "551211842.0085011"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -550,23 +550,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.200069"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "contacts"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.200127"
+            timestampString = "551211842.008788"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -582,7 +566,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.2001849"
+            timestampString = "551211842.009058"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -597,12 +581,28 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.200242"
+            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
+            timestampString = "551211842.009341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "contacts"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCloudKit/View/ContactViewController.swift"
+            timestampString = "551211656.736856"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -614,7 +614,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.200472"
+            timestampString = "551211656.736913"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCloudKit/View/ContactViewController.swift"
+            timestampString = "551211656.736957"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
@@ -630,27 +646,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.200698"
+            timestampString = "551211656.736999"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/View/ContactViewController.swift"
-            timestampString = "550964101.2009211"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -662,7 +662,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.201141"
+            timestampString = "551211842.00972"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
@@ -678,7 +678,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Controlller/ContactController.swift"
-                  timestampString = "550964101.462219"
+                  timestampString = "551211720.355664"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
@@ -693,7 +693,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Controlller/ContactController.swift"
-                  timestampString = "550964101.4636461"
+                  timestampString = "551211720.357715"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
@@ -708,7 +708,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Controlller/ContactController.swift"
-                  timestampString = "550964101.465376"
+                  timestampString = "551211720.359894"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
@@ -725,7 +725,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.201203"
+            timestampString = "551211842.009951"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -741,7 +741,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Controlller/ContactController.swift"
-                  timestampString = "550964101.4701"
+                  timestampString = "551211720.365723"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -756,7 +756,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Controlller/ContactController.swift"
-                  timestampString = "550964101.471552"
+                  timestampString = "551211720.367545"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -773,11 +773,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.201261"
+            timestampString = "551211842.01016"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "init()"
             landmarkType = "7">
          </BreakpointContent>
@@ -789,11 +789,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.201318"
+            timestampString = "551211842.010348"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "createContact(name:email:phoneNumber:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -805,39 +805,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.201377"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "createContact(name:email:phoneNumber:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.2014329"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "createContact(name:email:phoneNumber:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
-            timestampString = "550964101.201502"
+            timestampString = "551211842.01054"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -852,13 +820,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
-            timestampString = "550964101.201556"
+            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
+            timestampString = "551211842.010731"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "tableView(_:commit:forRowAt:)"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "createContact(name:email:phoneNumber:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCloudKit/Controlller/ContactController.swift"
+            timestampString = "551211842.01092"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "createContact(name:email:phoneNumber:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -869,7 +853,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
-            timestampString = "550964101.2016031"
+            timestampString = "550965633.3586071"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -885,7 +869,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
-            timestampString = "550964101.20165"
+            timestampString = "550965633.3589129"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
@@ -901,7 +885,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
-            timestampString = "550964101.2016931"
+            timestampString = "550965633.359136"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -917,23 +901,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
-            timestampString = "550964101.201737"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "tableView(_:commit:forRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
-            timestampString = "550964101.201781"
+            timestampString = "550965633.3593529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -949,7 +917,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
-            timestampString = "550964101.201826"
+            timestampString = "550965633.35957"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
@@ -965,11 +933,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
-            timestampString = "550964101.201871"
+            timestampString = "550965633.359791"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "tableView(_:commit:forRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -981,7 +949,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
-            timestampString = "550964101.201915"
+            timestampString = "550965633.360009"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -997,11 +965,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
-            timestampString = "550964101.201961"
+            timestampString = "550965633.3602279"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "tableView(_:commit:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
+            timestampString = "550965633.360455"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "tableView(_:commit:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCloudKit/View/ContactTableViewController.swift"
+            timestampString = "550965633.360675"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "tableView(_:commit:forRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1013,7 +1013,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202009"
+            timestampString = "550965633.3609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
@@ -1029,7 +1029,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202054"
+            timestampString = "550965633.3609509"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "81"
@@ -1045,7 +1045,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Model/Model%20Data/Contact.swift"
-                  timestampString = "550964101.522771"
+                  timestampString = "551211720.42924"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -1060,7 +1060,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Model/Model%20Data/Contact.swift"
-                  timestampString = "550964101.524305"
+                  timestampString = "551211720.430687"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "83"
@@ -1077,7 +1077,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202093"
+            timestampString = "550965633.361079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "83"
@@ -1093,7 +1093,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202131"
+            timestampString = "550965633.361141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "82"
@@ -1109,7 +1109,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Model/Model%20Data/Contact.swift"
-                  timestampString = "550964101.5311199"
+                  timestampString = "551211720.438194"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -1124,7 +1124,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Model/Model%20Data/Contact.swift"
-                  timestampString = "550964101.53248"
+                  timestampString = "551211720.439684"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "83"
@@ -1141,7 +1141,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.2021689"
+            timestampString = "550965633.361189"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
@@ -1157,7 +1157,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202208"
+            timestampString = "550965633.3612339"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
@@ -1173,7 +1173,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202247"
+            timestampString = "550965633.361286"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "85"
@@ -1189,7 +1189,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.2022851"
+            timestampString = "550965633.361331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "88"
@@ -1205,7 +1205,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202323"
+            timestampString = "550965633.361375"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
@@ -1221,7 +1221,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202361"
+            timestampString = "550965633.3614171"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
@@ -1237,7 +1237,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202399"
+            timestampString = "550965633.361461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "90"
@@ -1253,7 +1253,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202437"
+            timestampString = "550965633.3615021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
@@ -1269,7 +1269,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202476"
+            timestampString = "550965633.361546"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "92"
@@ -1285,7 +1285,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202515"
+            timestampString = "550965633.361588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
@@ -1301,7 +1301,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202554"
+            timestampString = "550965633.361631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -1317,7 +1317,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Model/Model%20Data/Contact.swift"
-                  timestampString = "550964101.5668809"
+                  timestampString = "551211720.495549"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -1332,7 +1332,7 @@
                   moduleName = "ContactsCloudKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/castonboyd/Library/Autosave%20Information/ContactsCloudKit/ContactsCloudKit/Model/Model%20Data/Contact.swift"
-                  timestampString = "550964101.568283"
+                  timestampString = "551211720.497497"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -1349,7 +1349,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202592"
+            timestampString = "550965633.361672"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
@@ -1365,7 +1365,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.20263"
+            timestampString = "550965633.361715"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
@@ -1381,7 +1381,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202667"
+            timestampString = "550965633.361755"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
@@ -1397,7 +1397,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.2027071"
+            timestampString = "550965633.361798"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
@@ -1413,7 +1413,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202745"
+            timestampString = "550965633.36184"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
@@ -1429,7 +1429,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202783"
+            timestampString = "550965633.361881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -1445,7 +1445,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.2028199"
+            timestampString = "550965633.361922"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -1461,7 +1461,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202858"
+            timestampString = "550965633.361962"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
@@ -1477,7 +1477,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202897"
+            timestampString = "550965633.362003"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
@@ -1493,7 +1493,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ContactsCloudKit/Model/Model Data/Contact.swift"
-            timestampString = "550964101.202935"
+            timestampString = "550965633.3620549"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"

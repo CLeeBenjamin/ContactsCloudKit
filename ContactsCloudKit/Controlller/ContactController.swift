@@ -21,14 +21,17 @@ class ContactController {
         didSet {
             DispatchQueue.main.async {
             NotificationCenter.default.post(name: .contactUpdate, object: self)
-                
+               
+               
             }
         }
+        
     }
-
+    
     init() {
        loadFromCloud()
     }
+    
     
     //MARK: - CRUD
     func createContact(name: String, email: String, phoneNumber: String){
@@ -50,7 +53,6 @@ class ContactController {
             // Assign recordID of CKrecord to created object
             guard let record = record else { return }
             createdContact.ckRecordID = record.recordID
-            self.contacts.append(createdContact)
         }
         
         print(contacts)
